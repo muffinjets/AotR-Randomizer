@@ -1,0 +1,140 @@
+Beginning game state: 
+
+    Start in Dragon Shores
+
+
+List of items I'd want to shuffle:
+
+Hearts of the Lands:
+-----------------------------
+    Heart of Dragon Shores
+    Heart of the Fairy Library
+    Heart of the Yeti Serengeti
+    Heart of Byrd Barracks
+    Heart of the Thieves' Guild
+    Heart of the Rabbit Habitat
+    Heart of the Banana Savannah
+    Heart of the Kangaroo Hoodoos
+    Heart of the Cheetah Spot Spa
+    Heart of Rhynocs n' Clocks
+    Heart of Chateau Ripto
+
+Ability Items:
+-----------------------------
+    Ice Fairy Scroll
+    Fairy Spell Book
+    Yeti Lamp
+    Super Breath Mint
+    Magic Spinning Top
+    Hot Banana Pepper
+    Kangaroo Carving
+    Mini Dynamo
+    Super Health Bar
+    Phoenix Shades
+    Antennae Extensions
+    Spot-On Warp Device
+
+Keys:
+-----------------------------
+    Red Key (Both Halves)
+    Green Key (Both Halves)
+    Pink Key (Both Halves)
+    Yellow Key (Both Halves)
+
+Bonus Items:
+-----------------------------
+    Magic Rainbow Dust
+    Magic Red Dust
+    Magic Green Dust
+    Magic Blue Dust
+    Magic Gold Dust
+
+Elder Terry's Toy Quest:
+-----------------------------
+    Sypro Action Figure
+    Ripto Action Figure
+    Bianca Action Figure
+    Hunter Action Figure
+    Shelia Action Figure
+    Sgt. Byrd Action Figure
+    Agent 9 Action Figure
+
+Zoe's Machine Quest:
+-----------------------------
+    Extenso-Grip Attachment
+    Book-B-Gone Storage Unit
+    No-Sneeze Dusting Armature
+    Eye-Spy Binding Scanner
+    Quick-N-Quiet Motivator Unit
+    Sup-R-Smart Sorrting Module
+    Dusty User Manual
+
+Bentley's Equipment Quest:
+-----------------------------
+    Yeti Hair Climbing Rope
+    Lucky Climbing Hat
+    Big Left Climbing Shoe
+    Another Left Climbing Shoe
+    Huge Left Climbing Glove
+    Huge Right Climbing Glove
+    Enormous Mountaineer's Ax
+
+Capt. Beek's Medal Quest:
+-----------------------------
+    Medal of Liberation
+    The Arctic Cross
+    Hero's Heart Medal
+    Medal of Honor
+    Victory Medal
+    Military Cross
+    The Order of Merit
+
+Master Thief's Tools Quest:
+-----------------------------
+    Master's Stethoscope
+    Master's Nail File
+    Master's Hand Drill
+    Master's Crowbar
+    Master's Sledgehammer
+    Master's Fuse
+    Master's Explosives
+
+Bianca's Plant Quest:
+-----------------------------
+    Dragon Star
+    Yeti Lettuce
+    Snow Lily
+    Ape Grapes
+    Roo's Rose
+    Money Tree
+    Sunspot Bloom
+
+Lance's Ingredients Quest:
+-----------------------------
+    Banana Ripening Agent
+    Magic Banana Dust
+    Flavor Booster
+    Soil Stabilizer
+    Peel Strengthener
+    Banana Gro-Growth
+    Yellow Dye #5
+
+Sheila's Artifact Quest:
+-----------------------------
+    The Roo Zetta Stone
+    Kangaroo History
+    The Roo Jewel
+    Digeri-doodle
+    Ancient Travel Brochure
+    Ceremonial Boomerang
+    Roo Pottery
+
+Hunter's Hipness Quest:
+-----------------------------
+    Hypnotic Light Organ
+    Totally Retro Uniform
+    Hip Neon Trophy
+    Way Cool Lava Lamp
+    Groovy Painting
+    Wild Snowboard
+    Awesome Dragonfly Wing
