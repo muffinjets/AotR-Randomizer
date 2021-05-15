@@ -7,32 +7,32 @@ List of items I'd want to shuffle:
 
 Hearts of the Lands:
 -----------------------------
-    Heart of Dragon Shores
-    Heart of the Fairy Library
-    Heart of the Yeti Serengeti
-    Heart of Byrd Barracks
-    Heart of the Thieves' Guild
-    Heart of the Rabbit Habitat
-    Heart of the Banana Savannah
-    Heart of the Kangaroo Hoodoos
-    Heart of the Cheetah Spot Spa
-    Heart of Rhynocs n' Clocks
-    Heart of Chateau Ripto
+    Heart of Dragon Shores             -
+    Heart of the Fairy Library         -
+    Heart of the Yeti Serengeti        -
+    Heart of Byrd Barracks             -
+    Heart of the Thieves' Guild        -
+    Heart of the Rabbit Habitat        -
+    Heart of the Banana Savannah       -
+    Heart of the Kangaroo Hoodoos      -
+    Heart of the Cheetah Spot Spa      -
+    Heart of Rhynocs n' Clocks         -
+    Heart of Chateau Ripto             -
 
 Ability Items:
 -----------------------------
-    Ice Fairy Scroll
-    Fairy Spell Book
-    Yeti Lamp
-    Super Breath Mint
-    Magic Spinning Top
-    Hot Banana Pepper
-    Kangaroo Carving
-    Mini Dynamo
-    Super Health Bar
-    Phoenix Shades
-    Antennae Extensions
-    Spot-On Warp Device
+    Ice Fairy Scroll                  -
+    Fairy Spell Book                  -
+    Yeti Lamp                         -
+    Super Breath Mint                 -
+    Magic Spinning Top                -
+    Hot Banana Pepper                 -
+    Kangaroo Carving                  -
+    Mini Dynamo                       -
+    Super Health Bar                  -
+    Phoenix Shades                    -
+    Antennae Extensions               -
+    Spot-On Warp Device               -
 
 Keys:
 -----------------------------
@@ -61,13 +61,13 @@ Elder Terry's Toy Quest:
 
 Zoe's Machine Quest:
 -----------------------------
-    Extenso-Grip Attachment
-    Book-B-Gone Storage Unit
-    No-Sneeze Dusting Armature
-    Eye-Spy Binding Scanner
-    Quick-N-Quiet Motivator Unit
-    Sup-R-Smart Sorrting Module
-    Dusty User Manual
+    Extenso-Grip Attachment              -
+    Book-B-Gone Storage Unit             - Address 0x3034 (possibly)
+    No-Sneeze Dusting Armature           -
+    Eye-Spy Binding Scanner              -
+    Quick-N-Quiet Motivator Unit         -
+    Sup-R-Smart Sorrting Module          -
+    Dusty User Manual                    -
 
 Bentley's Equipment Quest:
 -----------------------------
