@@ -1,0 +1,128 @@
+https://retroachievements.org/codenotes.php?g=4204
+(Must be logged in to view)
+
+0x03002fe7 - Dragon Shores Items 7654 3210
+    0 - Flower
+    1 - Tablet
+    2 - Heart
+    3 - Spyro Doll
+    4 - Clock Heart
+    5 - Arm
+    6 - Green Key Half
+    7 - Fairy Box
+
+0x03002fe8 - Fairy Library
+    0 - Rope
+    1 - Organ
+    2 - Ice Scroll
+    3 - Heart
+    4 - Kangaroo Book
+    5 - Ripto Doll
+    6 - Teleport Book
+    7 - Bianca Doll
+
+0x03002fe9 - Yeti Serengeti
+    0 - Lettuce
+    1 - Lamp
+    2 - Hunter Toy
+    3 - Heart
+    4 - Sheila Doll
+    5 - Medal
+    6 - Vacuum
+    7 - Banana Powder
+
+0x03002fea - Byrd Barracks
+    0 - Flower
+    1 - Mint
+    2 - Heart
+    3 - Jacket
+    4 - Camera
+    5 - Byrd Doll
+    6 - Red Key Half
+    7 - Helmet
+
+0x03002feb - Thieves' Guild
+    0 - Trophy
+    1 - Rainbow Dust
+    2 - Heart
+    3 - Agent 9 Doll
+    4 - Banana Dust
+    5 - Medal
+    6 - Red Key Half
+    7 - Treads
+
+0x03002fec - Rabbit Habitat
+    0 - Shoe
+    1 - Top
+    2 - Heart
+    3 - Stethoscope
+    4 - Medal
+    5 - Shoe
+    6 - Orb
+    7 - Banana Powder
+
+0x03002fed - Banana Savannah
+    0 - Glove
+    1 - Grapes
+    2 - Chili
+    3 - Heart
+    4 - Manual
+    5 - Ring
+    6 - File
+    7 - Green Key Half
+
+0x03002fee - Kangaroo Hoodoos
+    0 - Drill
+    1 - Rose
+    2 - Carving
+    3 - Heart
+    4 - Banana Powder
+    5 - Medal
+    6 - Lava Lamp
+    7 - Glove
+
+0x03002fef - Moneybags' Mansion
+    0 - Money Tree
+    1 - Painting
+    2 - Dynamo
+    3 - Heart
+    4 - Pickaxe
+    5 - Painting
+    6 - Medal
+    7 - Purple Key Half
+
+0x03002ff0 - Cheetah Spot Spa
+    0 - 
+    1 - 
+    2 - 
+    3 - 
+    4 - 
+    5 - 
+    6 - 
+    7 - 
+
+0x03002ff1 - Professor's Lab
+    0 - 
+    1 - 
+    2 - 
+    3 - 
+    4 - 
+    5 - 
+    6 - 
+    7 - 
+
+0x03002ff2 - Rhynocs 'n' Clocks
+    0 - 
+    1 - 
+    2 - 
+    3 - 
+    4 - 
+    5 - 
+    6 - 
+    7 - 
+
+0x03002ff3 - Ripto Chateau
+    0 - Warp
+    1 - Heart
+    2 - Gold Dust
+    3 - Red Dust
