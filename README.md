@@ -27,6 +27,6 @@ Here's my spreadsheet with all the information I've compiled/gathered so far:
 https://docs.google.com/spreadsheets/d/1t2JJnnYVB2g71syT50mSw3qDoo298MPa1Kufd8dIc5Y/edit?usp=sharing
 
 
-Special Thanks:
-NPO#5612
-BreadGhost
+# Special Thanks:
+ - NPO#5612
+ - BreadGhost
