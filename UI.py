@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import PhotoImage, filedialog, Text
+from tkinter import filedialog
 import randomizer
 
 # Create a class named root that calls all of the tk functions
@@ -7,6 +7,9 @@ root = tk.Tk()
 root.title('Attack of the Rhynocs Randomizer')
 root.geometry('500x500')
 root.iconbitmap("icon.ico")
+
+frame = tk.Frame(root)
+frame.pack(pady=10, padx=10)
 
 # create a table that holds the rom loaded from the user
 ROMs = []
@@ -23,15 +26,11 @@ def generateSeed():
         print("Generating Seed... (Currently no randomization functions written.)")
 
 
-# canvas = tk.Canvas(root, height=700, width=700, bg="#60E0C0")
-# canvas.pack()
 
-openROMButton = tk.Button(root, text="Open ROM", padx=10,
-                    pady=0, fg="white", bg="#263D42", command=loadROM)
-openROMButton.pack()
-
-beginRandoButton = tk.Button(root, text="Generate Game", padx=10,
-                    pady=0, fg="white", bg="#263D42", command=generateSeed)
-beginRandoButton.pack()
+openROMButton = tk.Button(frame, text = "Open ROM")
+openROMButton.grid(row = 0, column = 0, padx = 5, pady = 5, command=loadROM)
+ 
+beginRandoButtton = tk.Button(frame, text = "Generate Game")
+beginRandoButtton.grid(row = 0, column = 1, padx = 5, pady = 5, command=generateSeed)
 
 root.mainloop()
