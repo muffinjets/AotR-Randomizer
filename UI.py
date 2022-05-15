@@ -28,22 +28,26 @@ def loadROM():
     validmd5 = "4a15b07b4dc292e9003c377c55372287"
     ROM = filedialog.askopenfile(title="Select Attack of the Rhynocs (U) ROM",mode="rb",
                                 filetypes= (("GBA ROMs", "*.gba"), ("All files", "*.*")))
-    print("Loaded ROM")
-
-    # read contents of file
-    data = ROM.read()
-    #pipe contents of the file through
-    md5Returned = hashlib.md5(data).hexdigest()
-    print("Checking ROM...")
-    global correctROMBool
-    if validmd5 == md5Returned:
-        print ("Valid ROM.")
-        correctROMBool = 1
-        print("correctROMBool = ", int(validmd5 == md5Returned))
-    else:
-        print ("Invalid ROM, please try again.")
-        correctROMBool = 0
-        print("correctROMBool = ", int(validmd5 == md5Returned))
+    if ROM != None:
+        print("Loaded ROM")
+        # read contents of file
+        data = ROM.read()
+        #pipe contents of the file through
+        md5Returned = hashlib.md5(data).hexdigest()
+        print("Checking ROM...")
+        global correctROMBool
+        if validmd5 == md5Returned:
+            print ("Valid ROM.")
+            correctROMBool = 1
+            print("correctROMBool = ", int(validmd5 == md5Returned))
+        else:
+            print ("Invalid ROM, please try again.")
+            correctROMBool = 0
+            print("correctROMBool = ", int(validmd5 == md5Returned))
+    elif ROM == None:
+        print("No ROM detected. Please try again.")
+        correctROMBool == 0
+        print("correctROMBool = ", correctROMBool)
 
 
 
@@ -53,7 +57,7 @@ def loadROM():
 
 
 def generateSeed():
-        print(ROM)
+        print("ROM = ",ROM)
         global correctROMBool
         if correctROMBool == 1:
             print("Generating Seed... (Currently no randomization functions written.)")
