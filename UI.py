@@ -18,7 +18,8 @@ frame.grid(columnspan=4, row=1)  # Don't touch this line of code ever :gun_emoji
 correctROMBool = 0
 ROM = 0
 seedEntryBox = tk.StringVar()
-settingsFlags = 0
+settingsFlags = 1
+
 quickEscapeStart = tk.IntVar()
 generateSpoilerLog = tk.IntVar()
 
@@ -50,7 +51,45 @@ def loadROM():
         correctROMBool == 0
         print("correctROMBool = ", correctROMBool)
 
+def escapeField():
+    global settingsFlags
+    escape = int(quickEscapeStart.get())
+    if escape == 1:
+        settingsFlags *= 2
+        print("Settings Flags =", int(settingsFlags))
+    if escape == 0:
+        settingsFlags /= 2
+        print("Settings Flags =", int(settingsFlags))
+
+def spoilerField():
+    global settingsFlags
+    spoiler = int(generateSpoilerLog.get())
+    if spoiler == 1:
+        settingsFlags *= 4
+        print("Settings Flags =", int(settingsFlags))
+    elif spoiler == 0:
+        settingsFlags /= 4
+        print("Settings Flags =", int(settingsFlags))
+    
         
+##################################################################
+#      When you want to make new settings use this template      #
+##################################################################
+
+# longCamelCaseName = tk.IntVar()
+
+# def setting3Field():
+#     global settingsFlags
+#     shortname = int(longCamelCaseName.get())
+#     if shortname == 1:
+#         settingsFlags *= 8
+#         print("Settings Flags =", int(settingsFlags))
+#     elif shortname == 0:
+#         settingsFlags /= 8
+#         print("Settings Flagss =", int(settingsFlags))
+
+# setting3Check = tk.Checkbutton(frame, text="Setting 3", variable=longCamelCaseName, command=setting3Field)
+# setting3Check.grid(column=3, row=1, padx=0)
 
 
 def generateGame():
@@ -61,32 +100,27 @@ def generateGame():
     # "Is this the correct ROM?"
     global correctROMBool
     if correctROMBool == 1:
-        print("Generating Seed... (Currently no randomization functions written.)")
-        print("Seed Inputted =",seed)
         if seed == 0:
             seed = random.randrange(0,100000,1)
             print("Random Seed = ", seed)
 
-
-
-
-
-
+        # HAND IT OFF TO ANOTHER SCRIPT/FILE, KEEP THIS ONE SIMPLE
 
         elif seed != 0:
             print("Manual Seed = ", seed)
     else:
         print("Please open Spyro: Attack of the Rhynocs (U) ROM file.")
+    return seed
         
 
 
-openROMButton = tk.Button(root, text="Open ROM", fg="white", bg="#263D42", command=loadROM)
+openROMButton = tk.Button(root, text="Open ROM", fg="black", bg="#71e9c8", command=loadROM)
 seedEntryLabel = tk.Label(root, text="Seed(Leave 0 for random):")
 seedEntryBox = Spinbox(root, from_= 0, to = 99999, wrap=True)
-generateSeedButton = tk.Button(root, text="Generate Game", padx=10, fg="white", bg="#263D42", command=generateGame)
+generateSeedButton = tk.Button(root, text="Generate Game", padx=10, fg="black", bg="#71e9c8", command=generateGame)
 
-quickEscapeStartCheck = tk.Checkbutton(frame, text="Start with Quick Escape", variable=quickEscapeStart, onvalue=1, offvalue=0)
-generateSpoilerLogCheck = tk.Checkbutton(frame, text="Generate Spoiler Log", variable=generateSpoilerLog, onvalue=1, offvalue=0)
+quickEscapeStartCheck = tk.Checkbutton(frame, text="Start with Quick Escape", variable=quickEscapeStart, command=escapeField)
+generateSpoilerLogCheck = tk.Checkbutton(frame, text="Generate Spoiler Log", variable=generateSpoilerLog, command=spoilerField)
 
 
 
