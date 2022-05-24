@@ -1,9 +1,14 @@
+from items import itemlist
+
+
 class node:
-    def __init__(self, name, form, address, Requirements, ):
+    def __init__(self, name, form, address, requirements):
         self.checkname = name                                 # the long name of the check
         self.form = form                                      # whether it's an item, an entrance, an event
         self.address = address                                # where it's memory address exists
-        self.Requirements = []                                # logical requirements to resolve/obtiain/pass through node
+         # may need to add address somehow else,
+         # since not every node has a relevant address
+        self.requirements = []                                # logical requirements to resolve/obtiain/pass through node
 
 
 # Forms:
@@ -16,3 +21,9 @@ class node:
 
 # "entrance"      - An entrance
 # "event"         - A task that opens up more of the world
+
+
+
+for self in itemlist:
+    if self.itemtype == "ability":
+        print(self.short)
