@@ -1,9 +1,4 @@
-class item:
-    def __init__(self, short, name,  type):
-        self.short = short            # Shorter name for logic purposes
-        self.itemname = name          # Long name of the item
-        self.itemtype = type          # What type of item it is (ability, heart, keyhalf, quest, bonus)
-
+from general import item
 
 itemlist = []
 

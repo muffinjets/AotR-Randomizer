@@ -1,5 +1,8 @@
-from items import itemlist
-
+class item:
+    def __init__(self, short, name,  type):
+        self.short = short            # Shorter name for logic purposes
+        self.itemname = name          # Long name of the item
+        self.itemtype = type          # What type of item it is (ability, heart, keyhalf, quest, bonus)
 
 class node:
     def __init__(self, name, form, address, requirements):
@@ -9,6 +12,21 @@ class node:
          # may need to add address somehow else,
          # since not every node has a relevant address
         self.requirements = []                                # logical requirements to resolve/obtiain/pass through node
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Forms:
@@ -23,7 +41,3 @@ class node:
 # "event"         - A task that opens up more of the world
 
 
-
-for self in itemlist:
-    if self.itemtype == "ability":
-        print(self.short)
