@@ -106,3 +106,5 @@ itemlist.append(item("LavaLamp", "Way Cool Lava Lamp", "quest"))
 itemlist.append(item("Painting", "Groovy Painting", "quest"))
 itemlist.append(item("Snowboard", "Wild Snowboard", "quest"))
 itemlist.append(item("Wing", "Awesome Dragonfly Wing", "quest"))
+
+print(count(itemlist.))
